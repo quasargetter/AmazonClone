@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+}
+.body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background: linear-gradient(0deg,EAEDED, rgba(10,10,10,0));
+    border: red 2px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.headerimage{
+    width: auto;
+}
+.firstrow{
+    display: flex;
+    box-sizing: border-box;
+    width: 90%;
+    height: 30%;
+    padding: 1%;
+    justify-content: space-around;
+}
+.box1{
+    display: flex;
+    box-sizing: border-box;
+    width: 30%;
+    height: 90%;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+.text1{
+    flex-wrap: wrap;
+    font-size: 80%;
+}
+.img1{
+    width: 80%;
+    height: 80%;
+    object-fit: contain;
+}
+.button{
+    background-color: #CE9042;
+}
+/*New Box*/
+.box2{
+    display: flex;
+    box-sizing: border-box;
+    width: 30%;
+    height: 90%;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+.img2{
+    width: 80%;
+    height: 80%;
+    object-fit: contain;
+}
+/*New Box*/
+.box3{
+    display: flex;
+    box-sizing: border-box;
+    width: 30%;
+    height: 90%;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+.text3{
+    word-wrap: normal;
+    flex-wrap: wrap;
+    font-size: 80%;
+}
+.img3{
+    width: 80%;
+    height: 80%;
+    object-fit: contain;
+}
+/*New Row*/
+.secondrow{
+    display: flex;
+    box-sizing: border-box;
+    width: 90%;
+    height: 30%;
+    padding: 1%;
+    justify-content: space-around;
+    border:solid green 2px;
+}
+.box4{
+    display: flex;
+    box-sizing: border-box;
+    width: 45%;
+    height: 100%;
+    padding: 1%;
+    justify-content: space-around;
+    flex-direction: column;
+    border: solid red 2px;
+}
+/*New Box*/
+.box5{
+    display: flex;
+    box-sizing: border-box;
+    width: 45%;
+    height: 100%;
+    padding: 1%;
+    justify-content: space-around;
+    flex-direction: column;
+    border: solid red 2px;
+}
+/*New Row*/
+.thirdrow{
+    display: flex;
+    box-sizing: border-box;
+    width: 90%;
+    height: 30%;
+    padding: 1%;
+    justify-content: space-around;
+    border:solid green 2px;
+}
+.box6{
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    padding: 1%;
+    justify-content: space-around;
+    flex-direction: column;
+    border: solid red 2px; 
+}
