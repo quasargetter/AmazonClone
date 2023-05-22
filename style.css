@@ -15,16 +15,6 @@ body {
     background-color: #eaeded;
 }
 
-/*Classes */
-ul {
-    list-style-type: none;
-}
-
-a {
-    text-decoration: none;
-}
-
-
 /* Footer */
 .footer {
     background-color: var(--background-nav);
