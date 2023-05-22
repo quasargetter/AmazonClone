@@ -19,6 +19,7 @@ body {
 .footer {
     background-color: var(--background-nav);
     padding: 50px;
+    
 }
 
 
@@ -41,6 +42,7 @@ body {
 .footer .footer_row .pages ul li,
 .footer .footer_row .contact ul li {
   margin: 5px 0px;
+  list-style-type: none;
   font-size: 15px;
   text-align: center;
 }
@@ -48,6 +50,7 @@ body {
 .footer .footer_row .pages ul li a {
     color: var(--color1);
     text-transform: capitalize;
+    text-decoration: none;
   }
 
   .footer .footer_row .contact ul li a span {
@@ -58,12 +61,6 @@ body {
   .footer .footer_row .contact ul li a {
     color: var(--color);
   }
-
- * {
-    box-sizing: border-box;
-    margin: 0cm;
-    padding: 0cm;
-}
 
 /* navbar css */
 .nav{
