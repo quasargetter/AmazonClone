@@ -1,154 +1,212 @@
-* {
-    padding: 0;
-    margin: 0;
+*{
     box-sizing: border-box;
+    margin: 0cm;
+    padding: 0cm;
 }
 
-:root {
-    --background-nav: #131921;
-    --color: #cd9042;
-    --color1: #fff;
-}
-
-body {
-    background-color: #eaeded;
-}
-
-/*Classes */
-ul {
-    list-style-type: none;
-}
-
-a {
-    text-decoration: none;
-}
-
-/* Product */
-
-.product {
-    padding: 0px 15px;
+/* navbar css */
+.nav{
     display: flex;
     flex-direction: row;
-}
-
-.product-row{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-}
-
-.rating{
-    display:flex;
-}
-
-.product_img{
-    display: flex;
-}
-
-.button-cart{
-    display: flex;
-}
-
-.product .product_row .product_body {
-    width: 100%;
-    
-    background-color: var(--color1);
-    padding: 20px;
-    margin: 10px;
-    z-index: 1;
-}
-
-.product .product_row .product_body .product_description p {
-    font-size: 18px;
-}
-
-.product .product_row .product_body .product_price p {
-    font-size: 18px;
-    margin: 5px 0px;
-}
-
-.product .product_row .product_body .product_price p span {
-    font-size: 20px;
-    font-weight: bold;
-}
-
-.product .product_row .rating li {
-    margin-right: 3px;
-    font-size: 20px;
-}
-.product .product_row .rating li .fa-star {
-    color: var(--color);
-}
-
-.product .product_row .product_body .product_img {
-    justify-content: center;
-}
-.product .product_row .product_body .product_img img {
-    height: 200px;
-    margin: 10px 0px;
-}
-
-.product .product_row .button-cart {
-    justify-content: center;
-    margin: 10px 0px;
-}
-
-.product .product_row .button-cart button {
-    padding: 5px 10px;
-    cursor: pointer;
-    border: none;
-    font-size: 16px;
-    background-color: var(--color);
-}
-
-@media (max-width: 716px) {
-
-    .product
-    {
-      display: none;
-    }
-  }
-
-/* Footer */
-.footer {
-    background-color: var(--background-nav);
-    padding: 50px;
-}
-
-
-.footer_row {
-    display: flex;
-}
-
-.footer .footer_row {
-    padding-bottom: 15px;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     align-items: center;
-    
+    background-color: #131921;
+    width: 100%;
+    height: 60px;
+    justify-content: space-between;
 }
 
-.footer .footer_row .logo img {
-    width: 120px;
+nav img{
+    height:170px;
+    width:120px;
+    margin: 5px 0px 5px 10px;
 }
 
-.footer .footer_row .pages ul li,
-.footer .footer_row .contact ul li {
-  margin: 5px 0px;
-  font-size: 15px;
-  text-align: center;
+
+.input-icons i {
+    background-color:#cd9042;
+    color:white;
+    border: #cd9042 6px solid;
+    width: 30px;
+    height: 30px;
+}
+  
+.input-icons {
+    width: 80rem;
+    height:30px;
+    display: flex;
 }
 
-.footer .footer_row .pages ul li a {
-    color: var(--color1);
-    text-transform: capitalize;
-  }
+.input{
+    width: 70rem;
+    height: 30px;
+}
+  
 
-  .footer .footer_row .contact ul li a span {
-    color: var(--color1);
-    margin-left: 10px;
-  } 
+.threebutton{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    align-items: center;
+}
 
-  .footer .footer_row .contact ul li a {
-    color: var(--color);
-  }
+nav button{
+    width: 5rem;
+    text-align: start;
+    background-color: #131921;
+    color: white;
+    font-size: 90%;
+	padding: 2px;
+    border: none;
+    margin-right: 20px;
+
+}
+
+.cart i, span{
+    color: white;
+    font-size: 90%;
+}
+
+.cart{
+    padding: 2px;
+    margin-right: 10px;
+}
+
+
+/*main part */
+.body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background: linear-gradient(0deg,EAEDED, rgba(10,10,10,0));
+    border: red 2px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.headerimage{
+    width: auto;
+}
+.firstrow{
+    display: flex;
+    box-sizing: border-box;
+    width: 90%;
+    height: 30%;
+    padding: 1%;
+    justify-content: space-around;
+}
+.box1{
+    display: flex;
+    box-sizing: border-box;
+    width: 30%;
+    height: 90%;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+.text1{
+    flex-wrap: wrap;
+    font-size: 80%;
+}
+.img1{
+    width: 80%;
+    height: 80%;
+    object-fit: contain;
+}
+.button{
+    background-color: #CE9042;
+}
+/*New Box*/
+.box2{
+    display: flex;
+    box-sizing: border-box;
+    width: 30%;
+    height: 90%;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+.img2{
+    width: 80%;
+    height: 80%;
+    object-fit: contain;
+}
+/*New Box*/
+.box3{
+    display: flex;
+    box-sizing: border-box;
+    width: 30%;
+    height: 90%;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+.text3{
+    word-wrap: normal;
+    flex-wrap: wrap;
+    font-size: 80%;
+}
+.img3{
+    width: 80%;
+    height: 80%;
+    object-fit: contain;
+}
+/*New Row*/
+.secondrow{
+    display: flex;
+    box-sizing: border-box;
+    width: 90%;
+    height: 30%;
+    padding: 1%;
+    justify-content: space-around;
+    border:solid green 2px;
+}
+.box4{
+    display: flex;
+    box-sizing: border-box;
+    width: 45%;
+    height: 100%;
+    padding: 1%;
+    justify-content: space-around;
+    flex-direction: column;
+    border: solid red 2px;
+}
+/*New Box*/
+.box5{
+    display: flex;
+    box-sizing: border-box;
+    width: 45%;
+    height: 100%;
+    padding: 1%;
+    justify-content: space-around;
+    flex-direction: column;
+    border: solid red 2px;
+}
+/*New Row*/
+.thirdrow{
+    display: flex;
+    box-sizing: border-box;
+    width: 90%;
+    height: 30%;
+    padding: 1%;
+    justify-content: space-around;
+    border:solid green 2px;
+}
+.box6{
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    padding: 1%;
+    justify-content: space-around;
+    flex-direction: column;
+    border: solid red 2px; 
+}
