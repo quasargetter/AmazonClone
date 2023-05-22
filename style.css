@@ -1,6 +1,138 @@
-*{
+
+* {
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
+
+:root {
+    --background-nav: #131921;
+    --color: #cd9042;
+    --color1: #fff;
+}
+
+body {
+    background-color: #eaeded;
+}
+
+/* Footer */
+.footer {
+    background-color: var(--background-nav);
+    padding: 50px;
+    
+}
+
+
+.footer_row {
+    display: flex;
+}
+
+.footer .footer_row {
+    padding-bottom: 15px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+
+.footer .footer_row .logo img {
+    width: 120px;
+}
+
+.footer .footer_row .pages ul li,
+.footer .footer_row .contact ul li {
+  margin: 5px 0px;
+  list-style-type: none;
+  font-size: 15px;
+  text-align: center;
+}
+
+.footer .footer_row .pages ul li a {
+    color: var(--color1);
+    text-transform: capitalize;
+    text-decoration: none;
+  }
+
+  .footer .footer_row .contact ul li a span {
+    color: var(--color1);
+    margin-left: 10px;
+  } 
+
+  .footer .footer_row .contact ul li a {
+    color: var(--color);
+  }
+
+/* navbar css */
+.nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    background-color: #131921;
+    width: 100%;
+    height: 60px;
+    justify-content: space-between;
+}
+
+nav img{
+    height:170px;
+    width:120px;
+    margin: 5px 0px 5px 10px;
+}
+
+
+.input-icons i {
+    background-color:#cd9042;
+    color:white;
+    border: #cd9042 6px solid;
+    width: 30px;
+    height: 30px;
+}
+  
+.input-icons {
+    width: 40rem;
+    height:30px;
+    display: flex;
+}
+
+.input{
+    width: 30rem;
+    height: 30px;
+}
+  
+
+.threebutton{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    align-items: center;
+}
+
+nav button{
+    width: 5rem;
+    text-align: start;
+    background-color: #131921;
+    color: white;
+    font-size: 90%;
+	padding: 2px;
+    border: none;
+    margin-right: 20px;
+
+}
+
+.cart i, span{
+    color: white;
+    font-size: 90%;
+}
+
+.cart{
+    padding: 2px;
+    margin-right: 10px;
+}
+
+
+/*main part */
 .body{
     display:flex;
     justify-content: center;
@@ -236,4 +368,3 @@
     max-height: 1000%;
     object-fit: contain;
     margin-bottom: 7%;
-}
